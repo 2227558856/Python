@@ -272,3 +272,10 @@
             请输入：3
             >>> a
             '3'
+
+
+
+5.      file_a=open('dragon.txt','r')                  #注意文件位置以及编码问题
+        content=file_a.read()
+        print (content)
+        file_a.close()
