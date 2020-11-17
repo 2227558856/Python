@@ -1,0 +1,52 @@
+1.            >>> print ("hello")
+              hello
+              >>> print ('h')
+              h
+              >>> m=hello
+              Traceback (most recent call last):
+                File "<pyshell#2>", line 1, in <module>
+                  m=hello
+              NameError: name 'hello' is not defined
+              >>> m='hello'
+              >>> print (m)
+              hello
+              >>> a='I like '
+              >>> b='sleeping'
+              >>> print (a.title()+b+'!')
+              I Like sleeping!
+              >>> a[0]
+              'I'
+              >>> a[-2]
+              'e'
+              >>> #对于字符串，python可以用负数引用
+              >>> a[-1]
+              ' '
+              >>> a[1:7]
+              ' like '
+              >>> #可以通过以上格式引用一段范围的字符
+              >>> 0.1+0.2
+              0.30000000000000004
+              >>> 0.1+0.1
+              0.2
+              >>> c=2021
+              >>> print ("a+str(c-1)+'!'")
+              a+str(c-1)+'!'
+              >>> print (a+str(c-1)+'!')         #alt+p==直接获取复制上一条代码
+              I like 2020!
+              >>> #用str可以把数字转换为字符串
+              >>> [a,b]
+              ['I like ', 'sleeping']
+              >>> [q,ew,r]
+              Traceback (most recent call last):
+                File "<pyshell#21>", line 1, in <module>
+                  [q,ew,r]
+              NameError: name 'q' is not defined
+              >>> ['q','w']
+              ['q', 'w']
+              >>> [12,35,6]
+              [12, 35, 6]
+              >>> 'I like sleeping'.split()
+              ['I', 'like', 'sleeping']
+              >>> #split方法可以根据空格分成列表
+              >>> print ("hello")             #alt+n复制下一条（python是循环结构），即开头第一句（在下面无代码的情况下）
+              hello
