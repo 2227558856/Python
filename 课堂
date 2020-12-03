@@ -298,3 +298,16 @@
                         if(c%3==0):
                             print('鸡翁=',a,'鸡母=',b,'鸡雏=',c)
 
+
+8.          n=input('请输入一串数字：')
+            m=len(n)                #n表示输入的数字，m表示长度
+            k=int(m/2)              #用k表示前后循环的次数
+            flag=1                  #用flag判断是否出现不一致，如果有，flag=0
+            for i in range(0,k+1):
+                if(n[i]!=n[m-i-1]):
+                    flag=0
+                    break
+            if(flag==1):
+                print('是回文数')
+            else:
+                print('不是回文数')
