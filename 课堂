@@ -311,3 +311,19 @@
                 print('是回文数')
             else:
                 print('不是回文数')
+
+
+
+9.          #研究break,continue的用法
+            a='I like sleeping'
+            for i in a:
+                if(i=='i'):
+                    break
+                else:
+                    print(i)
+            for i in a:
+                if(i=='i'):
+                    continue
+                else:
+                    print(i)
+
