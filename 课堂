@@ -279,3 +279,12 @@
         content=file_a.read()
         print (content)
         file_a.close()
+
+
+
+6.      b=[1,2,3,36,6,7]
+        for a in b:
+            if(a>1 and a<10):
+                print(a)
+            else:
+                print(0)
