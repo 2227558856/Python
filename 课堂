@@ -327,3 +327,8 @@
                 else:
                     print(i)
 
+10.           txt='I like slee*()__)()*&*(ping'
+              for i in txt:
+                  if i in "*()_&":
+                      txt=txt.replace(i,"")
+              print(txt)
